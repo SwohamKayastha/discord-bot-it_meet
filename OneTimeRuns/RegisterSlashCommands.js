@@ -85,6 +85,13 @@ const commands = [
     name: 'registerevent',
     description: 'Input the detail of the event',
     options: [
+    /*  {
+        name: 'id',
+        description: 'unique id for the event',
+        type: ApplicationCommandOptionType.String,
+        required: true,
+     },
+     */
       {
         name: 'event_name',
         description: 'Name of the event to add',
@@ -112,6 +119,19 @@ const commands = [
       
     ],
   },
+ /* {
+    name: 'removeevent',
+    description: 'removes you scheduled event.',
+    options: [
+      {
+        name: 'id',
+        description: 'the id of the notification is removed',
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },   
+    ],
+  },
+  */
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
