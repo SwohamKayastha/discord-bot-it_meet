@@ -33,8 +33,4 @@ module.exports = async (interaction) => {
     // }
     //Example Use
     
-
-    
-
-    
 };
