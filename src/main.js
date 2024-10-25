@@ -31,7 +31,7 @@ const client = new Client({
 
 const ALLOWED_ROLE_ID = '1299292137682112554';
 
-let scheduledId = [];
+// let scheduledId = [];
 
 client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is online.`);
